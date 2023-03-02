@@ -14,7 +14,7 @@ class s
         cout<<x<<"\t"<<y<<endl;
         
     }
-    friend void operator-(s &m);/*we also use friend in operator overloading when parameters are pass by reference*/
+    friend void operator-(s &m);/*we also use friend  keyword in operator overloading when parameters are pass by reference*/
 };
 void operator-(s &m)
 {
